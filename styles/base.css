@@ -1,115 +1,150 @@
-* {
+body {
+    font-family: "Roboto", sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-img {
-    width: 20%;
-    border-radius: 5px;
-}
-header footer nav { background-color: #ebb2a4;}
-header{
-    background-color: #d83385;
+    background-color: #f0d1c9;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
     display: flex;
     flex-direction: row;
-    color: black;
-    justify-content: center;
     align-items: center;
-    gap: 50px;
-    padding: 30px 30px;
-    font-size: 30px;
-    font-family: "Roboto", sans-serif;
-}
-main h1 {
-    text-align: center;
-}
-nav {
-    border:1px solid #2c0918;
-    background-color: #ebb2a4;
-    overflow: hidden;
-    margin: 1rem 0;
     justify-content: center;
-    text-align: center;
-
-}
-nav ul {
-    list-style-type: none;
-
-}
-nav a {
-    display: block;
-    color: #c4a4a4;
-    text-align: center;
-    padding: .5rem;
-    text-decoration: none;
-    align-items: center;
-}
-.active {
-    color: white;
-}
-.parent {
-    margin: 1rem 2vw;
-}
-.parent section {
-    border:1px solid #ddb8cf;
-    background-color: #e9f5e9;
-    border-radius: 10px;
-    overflow: hidden;
-    margin: 1rem 0;
-}
-h2 {
-    background-color: #6b032d;
+    padding: 20px;
+    background-color:  #d83385;
     color: #fff;
-    display: block;
-    text-align: center;
-    padding: .75rem 0;
-}
-.parent p {
-    padding: 10px;
+  }
+  
+  header img {
+    border-radius: 50%;
+    max-width: 200px;
+    margin-right: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  
 
-}
-.information {
-    text-align: center;
-}
-.lastmodified{
-    color: black;
-    text-align: center;
-    font-size: 5px;
-
-}
-.links {
-    list-style-type: none;
-    margin: 20px;
-}
-footer{
+  .hamburger-menu {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+
+  .hamburger-menu .hamburger {
+    width: 100%;
+    height: 3px;
+    background-color: #9c0d0d;
+  }
+
+  nav {
+    display: flex;
+    justify-content: flex-start; 
     align-items: center;
     background-color: #ebb2a4;
-    gap: 5px;
-    padding: 5px;
-    font-size: 20px;
-}
-@media only screen and (min-width: 38rem) {
-    .parent {
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-        column-gap: 10px;
-    }
-    .parent section {
-        box-shadow: 1px 1px 10px black;
-    }
-}
-@media (min-width: 38rem) {
-    nav ul {
-        display: flex;
-        justify-content: center;
+    padding: 0px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px; 
+    flex-grow: 1; 
+    text-align: center; 
+  }
+  
+  nav .selected {
+    background-color: rgb(35, 5, 41);
+  }
+  
+  nav a:hover {
+    background-color: #d83385;
+  }
+  
+  nav .selected a {
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 0;
+  }
+  
+  
+  main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+  }
+  
+  section {
+    margin-top: -20px;
+  }
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .card li {
+    margin-bottom: 10px;
+  }
 
-    }
-    nav ul li {
-        flex: 1 1 100%;
+  main h2 {
+    text-align: left;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  main a {
+    text-align: left;
+    margin-top: -40px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  .centerText {
+    text-align: center;
+  }
 
-    }
 
-}
+  .information {
+    text-align: center;
+  }
+
+  footer {
+    background-color:  #d83385;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+  }
+
+
+  .container {
+    display: none;
+  }
+  .note-bar {
+    height: 40px;
+    background-color: rgb(35, 5, 41);
+  }
+
+  #mode {
+    position: absolute;
+    top: .3rem;
+    right: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }

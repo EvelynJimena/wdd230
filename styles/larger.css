@@ -1,0 +1,53 @@
+@media (max-width: 38rem) {
+    main {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .card {
+      grid-column-start: unset;
+      grid-column-end: unset;
+      margin-bottom: 20px; 
+    }
+    h2 {
+        text-align: center;
+    }
+    main h2 {
+        text-align: center;
+    }
+    nav .selected {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        padding-left:  350px;
+        padding-right: 350px;
+    }
+    nav {
+        margin: 0 auto;
+        display:grid;
+        justify-content: center;
+        overflow: hidden;  
+    }
+    .card {
+      grid-column-start: unset;
+      grid-column-end: unset;
+      margin-bottom: 20px; 
+    }
+    .hidden {
+      display: none;
+    }
+    .hamburger {
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 5px;
+    }
+    .hamburger i {
+      font-size: 20px;
+    }
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+  }

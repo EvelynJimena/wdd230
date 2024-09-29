@@ -2,65 +2,88 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <title>Evelyn Espinoza - WDD230 - Web Fronted Development</title>
     <meta name="description" content="WDD 230 - Web Frontend Development Evelyn Jimena Espinoza Zambrano course assignment portal">
     <meta name="author" content="Evelyn Espinza">
+    <link rel="icon" href="images/favicon.ico">
+    <meta property="og:title" content="Evelyn Espinoza - WDD230 - Web Fronted Development"/>
+    <meta property="og:type" content="Website.html"/>
+    <meta property="og:description" content="Evelyn Espinoza Offical Website">
+    <meta property="og:image" content="images/quevedo.jpg"/>
+    <meta property="og:url" content="https://evelynjimena.github.io/wdd230/"/>
+    
 
 </head>
 <body>
+    <div class="note-bar">
+        <div id="mode">
+            ☑️
+        </div>
+    </div>
     <header>
-        <img src="images/evelynimagen.jpg" 
-        alt="Evelny's Profile Picture">
+        <img src="images/evelynimagen.jpg" alt="Evelyn's Picture">
         <h1>Evelyn Espinoza</h1>
         
-    </header>
-    <nav>
-        <ul>
-            <li><a href="index.html" class="active"></a>Home</li>
-            <li><a href="index.html"></a>Chamber</li>
-            <li><a href="week01/chamber-site-plan.html"></a>Site Plan</li>
-            <li><a href="index.html"></a>Form</li>
-        </ul>
-    </nav>
+      </header>
+      <div class="container">
+  <button id="toggleButton" class="hamburger">
+    <i class="fas fa-bars"></i>
+  </button>
+</div>
 
-
-
-    <main>
+      <nav id="navElement" class="hidden">
         
-        <h1>    WDD 230: Web Frontend Development</h1>
-        <div class="parent">
-        <section class="card">
-            <h2>Learning Activities</h2>
-            <ul class="links">
-                <li> Week 1:<a href=""></a></li>
-                <li> Week 2:<a href=""></a></li>
-                <li> week 3:<a href=""></a></li>
-                <li> Week 4:<a href=""></a></li>
-                <li> week 5:<a href=""></a></li>
-                <li> Week 6:<a href=""></a></li>
-                <li> Week 7:<a href=""></a></li>
+          <a id="Home" class="selected" href="#">Home</a>
+          <a id="Chamber" href="chamber/index.html">Chamber</a>
+          <a id="SitePlan" href="week01/chamber-site-plan.html">Site Plan</a>
+          <a id="Form" href="#">Form</a>
+        
+      </nav>
+    
+    <main>
+        <h2 class="centerText">WDD 230: Web Frontend Development</h2>
+        <a><hr></a>
+        <section class="card" id="card">
+            
+            <h3 id="headerThree" class="centerText">Learning Activities</h3>
+            <ul>
+                <li><a>Week 01:</a><a href="#">Layout</a> | <a href="#">Media Query</a> | <a href="#">JS Pen</a></li>
+                <li><a>Week 02:</a><a href="#">Design</a> | <a href="#">Codepen</a> | <a href="#">JS DOM</a></li>
+                <li><a>Week 03:</a></li>
+                <li><a>Week 04:</a></li>
+                <li><a>Week 05:</a></li>
+                <li><a>Week 06:</a></li>
             </ul>
         </section>
-        <section class="card">
-            <h2>Information</h2>
-            <div class="information">
-            <p>Quevedo, Ecuador</p>
-            <p>78 F - Sunshine</p>
-            <p>Page visits: 10</p>
-            </div>
+
+        <section class="card" id="information">
+            <h2 class="centerText" id="header">Information</h2>
+            <ul class="information">
+                <li><a>Quevedo, Ecuador</a></li>
+                <li><a>Weather: 78 F - Sunshine</a></li>
+                <li><a>Page visits: 10</a></li>
+            </ul>
         </section>
-        </div>
     </main>
+    
     <footer>
-        <p class="copyright">&copy; <span id="currentyear">
-        </span>.:|:. Evelyn Espinoza .:|:. Ecuador</p>
-        <p class="lastModified">Last Modified:</p>
-    <script src="scripts/getDates.js" defer></script>
+        <div class="centered">
+            <p class="copyright">&copy; <span id="currentyear"></span></p>
+            <p class="modifier">-- Evelyn Espinoza -- Quvedo, Ecuador</p>
+          </div>
+          <p class="lastModified">Last Modified:</p>
     </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/mode.js"></script>
+    <script src="scripts/hamburger.js"></script>
 </body>
 </html>
