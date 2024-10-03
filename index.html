@@ -30,7 +30,7 @@
         </div>
     </div>
     <header>
-        <img src="images/evelynimagen.jpg" alt="Evelyn's Picture">
+        <img src="images/evelynimagen.webp" alt="Evelyn's Picture">
         <h1>Evelyn Espinoza</h1>
         
       </header>
@@ -50,6 +50,18 @@
       </nav>
     
     <main>
+
+        <div class="temple-container">
+            <picture class="temple">
+              <source srcset="images/temple.webp" media="(max-width: 400px)">
+              <source srcset="images/temple.webp" media="(max-width: 960px)">
+              <img src="images/temple.webp" alt="Quito Temple - Quito, EC">
+            </picture>
+            <div class="hero-label">
+              <p>Quito Temple</p>
+            </div>
+          </div>
+
         <h2 class="centerText">WDD 230: Web Frontend Development</h2>
         <a><hr></a>
         <section class="card" id="card">
@@ -58,7 +70,7 @@
             <ul>
                 <li><a>Week 01:</a><a href="#">Layout</a> | <a href="#">Media Query</a> | <a href="#">JS Pen</a></li>
                 <li><a>Week 02:</a><a href="#">Design</a> | <a href="#">Codepen</a> | <a href="#">JS DOM</a></li>
-                <li><a>Week 03:</a></li>
+                <li><a>Week 03:</a><a href="#">WebP</a> | <a href="#">LazyLoad</a> | <a href="#">Responsive</a> | <a href="#">BOM</a></li></li>
                 <li><a>Week 04:</a></li>
                 <li><a>Week 05:</a></li>
                 <li><a>Week 06:</a></li>
@@ -70,9 +82,12 @@
             <ul class="information">
                 <li><a>Quevedo, Ecuador</a></li>
                 <li><a>Weather: 78 F - Sunshine</a></li>
-                <li><a>Page visits: 10</a></li>
+                <li><a class="label">Page Visits: <span class="visits"></span></a></li>
             </ul>
         </section>
+        <div class="iframe-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63826.98358663973!2d-79.46509839999999!3d-1.0197001499999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902b4e07de33a1ff%3A0x3ad078d90c4540a1!2sQuevedo!5e0!3m2!1ses!2sec!4v1727972727832!5m2!1ses!2sec" width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
     </main>
     
     <footer>
@@ -85,5 +100,6 @@
     <script src="scripts/getDates.js"></script>
     <script src="scripts/mode.js"></script>
     <script src="scripts/hamburger.js"></script>
+    <script src="scripts/visits.js"></script>
 </body>
 </html>

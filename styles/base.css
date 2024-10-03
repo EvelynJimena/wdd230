@@ -33,14 +33,14 @@ body {
   
   
 
-  .hamburger-menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-  }
+.hamburger-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
 
   .hamburger-menu .hamburger {
     width: 100%;
@@ -77,7 +77,38 @@ body {
     padding: 8px 12px;
     border-radius: 0;
   }
+  .temple {
+    display: flex;
+    justify-content: center;
+  }
   
+  .temple img {
+    width: 700px;
+    height: auto;
+  }
+  
+.temple-container {
+  position: relative;
+  grid-column-start: auto;
+  grid-column-end: span 2;
+  height: auto 
+}
+  .hero-label {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+.hero-label p {
+  margin: 0;
+}
   
   main {
     display: grid;
@@ -85,6 +116,16 @@ body {
     grid-gap: 20px;
     padding: 20px;
   }
+  .iframe-container {
+    display: flex;
+    justify-content: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+.iframe-container iframe {
+    max-width: 100%;
+}
+
   
   section {
     margin-top: -20px;
