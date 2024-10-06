@@ -16,7 +16,7 @@ a {
   
 
 header {
-    background-color: #266939;
+    background-color: #298844;
     padding: 20px;
     display: flex;
     align-items: center;
@@ -47,7 +47,7 @@ header img {
   
 nav ul.menu {
     display: none;
-    background-color: #50aa6a;
+    background-color: #253b2b;
     margin-top: 0;
 
 }
@@ -100,7 +100,13 @@ main {
     font-size: 18px;
     text-decoration: none;
 }
-  
+
+.container {
+    display: grid;
+    grid-template-areas: 
+      "sidebar"
+      "main";
+}
 .call-to-action {
     text-align: center;
     margin-bottom: 20px;
@@ -158,5 +164,15 @@ footer {
 main h3 {
     text-align: center;
     color: #0a1612;
+}
+figure {
+    align-items: center;
+
+}
+.image {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
 }
   
