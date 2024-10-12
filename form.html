@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Evelyn Espinoza - WDD230 - Web Fronted Development</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development Evelyn Jimena Espinoza Zambrano course assignment portal">
+    <meta name="author" content="Evelyn Espinza">
+    <link rel="icon" href="images/favicon.ico">
+    <meta property="og:title" content="Evelyn Espinoza - WDD230 - Web Fronted Development"/>
+    <meta property="og:type" content="Website.html"/>
+    <meta property="og:description" content="Evelyn Espinoza Offical Website">
+    <meta property="og:image" content="https://www.aldia.com.ec/wp-content/uploads/2020/10/120260486_357351072284481_4075491110549822096_n-768x432.jpg"/>
+    <meta property="og:url" content="https://evelynjimena.github.io/wdd230/"/>
+
+
+</head>
+<body>
+    <div class="note-bar">
+        <div id="mode">
+            ☑️
+        </div>
+    </div>
+    <header>
+        <img src="images/evelynimagen.webp" alt="Evelyn's Picture">
+        <h1>Evelyn Espinoza</h1>
+        
+      </header>
+      <div class="container">
+  <button id="toggleButton" class="hamburger">
+    <i class="fas fa-bars"></i>
+  </button>
+</div>
+
+      <nav id="navElement" class="hidden">
+        
+          <a id="Home" class="selected" href="#">Home</a>
+          <a id="Chamber" href="chamber/index.html">Chamber</a>
+          <a id="SitePlan" href="week01/chamber-site-plan.html">Site Plan</a>
+          <a id="Form" href="#">Form</a>
+        
+      </nav>
+    
+      <main>
+        <form onsubmit="validateForm(event)" class="myform" method="get" action="record.html">
+
+            <div>
+              <label for="username">Username:</label>
+              <input type="text" id="username" name="username" required>
+            </div>
+            <div>
+              <label for="password">Password:</label>
+              <input type="password" id="password" name="password" required>
+            </div>
+            <div>
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+                <small id="password-match-error" style="color: black; display: none;">Passwords do not match</small>
+              </div>
+
+              <div>
+                <label for="email">Email (*@byui.edu):</label>
+                <input type="email" id="email" name="email" required pattern=".+@byui\.edu">
+              </div>
+              
+            <div>
+                <label for="page-rate">Page Rate (1-10):</label>
+                <input type="range" id="page-rate" step="1" name="page-rate" min="1" max="10" value="1" oninput="updateSliderValue(this.value)">
+                <span id="slider-value">1</span>
+            </div>
+
+            <div>
+              <input type="submit" value="Submit">
+            </div>
+
+          </form>
+          
+    </main>
+    
+    <footer>
+        <div class="centered">
+            <p class="copyright">&copy; <span id="currentyear"></span></p>
+            <p class="modifier">-- Evelyn Espinoza -- Quevedo, Ecuador</p>
+          </div>
+          <p class="lastModified">Last Modified:</p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/mode.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/form.js"></script>
+</body>
+</html>
