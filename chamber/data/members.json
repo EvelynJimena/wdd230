@@ -36,31 +36,31 @@
       "other_information": "Shopping plaza with a wide variety of shops, excellent food fair and diversity in restaurants that has a pleasant and family atmosphere."
     },
     {
-      "name": "FlightFins",
-      "address": "555 Cedar Road, Seattle, WA 98101",
-      "phone": "+1 (999) 888-7777",
-      "website": "https://www.flightfins.com",
-      "image": "https://camwp.github.io/wdd230/chamber/images/chamberimg5.png",
+      "name": "Supermaxi Quevedo",
+      "address": "Av. Walter Andrade Fajardo y Moroni",
+      "phone": "05) 275-1582",
+      "website": "https://www.supermaxi.com/",
+      "image": "https://evelynjimena.github.io/wdd230/chamber/images/chamber5.png",
       "membership_level": "Premium",
-      "other_information": "FlightFins specializes in innovative Onewheel accessories, including flight fins, fangs, and other performance-enhancing add-ons. They are known for their cutting-edge designs."
+      "other_information": "You can make your supermarket purchases through our Tipti partners and receive your purchases in the comfort of your home, with the quality and safety of Supermaxi."
     },
     {
-      "name": "Onewheel Warehouse",
-      "address": "789 Maple Avenue, Denver, CO 80201",
-      "phone": "+1 (444) 555-6666",
-      "website": "https://www.onewheelwarehouse.com",
-      "image": "https://camwp.github.io/wdd230/chamber/images/chamberimg6.png",
+      "name": "Club de los Leones Quevedo",
+      "address": "Av.Quito entre Rumiñahui y Fausto Torres",
+      "phone": "+593 925461745",
+      "website": "https://e-clubhouse.org/sites/quevedo/",
+      "image": "https://evelynjimena.github.io/wdd230/chamber/images/chamber6.png",
       "membership_level": "Standard",
-      "other_information": "Onewheel Warehouse is a trusted retailer of Onewheel boards and accessories. They offer a wide selection of products, including replacement parts and safety gear."
+      "other_information": "Lions serve the needs of local communities and those around the world because they share a strong belief – to serve their community."
     },
     {
-      "name": "Onewheel Adventures",
-      "address": "999 Beach Boulevard, Miami, FL 33101",
-      "phone": "+1 (777) 888-9999",
-      "website": "https://www.onewheeladventures.com",
-      "image": "https://camwp.github.io/wdd230/chamber/images/chamberimg7.png",
+      "name": "Club Rotario",
+      "address": "1 Ave, 4ta y 5ta. Calle, 5",
+      "phone": "0975961511",
+      "website": "hhttps://www.rotary.org/es",
+      "image": "https://evelynjimena.github.io/wdd230/chamber/images/chamber7.png",
       "membership_level": "Premium",
-      "other_information": "Onewheel Adventures organizes guided tours and group rides for Onewheel enthusiasts. They offer unique experiences to explore scenic locations while enjoying the thrill of riding Onewheel boards."
+      "other_information": "Our global network of more than 1.2 million neighbors, friends, and leaders volunteer their skills and resources to solve issues and address community needs."
     }
   ]
   
