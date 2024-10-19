@@ -1,4 +1,4 @@
-const url = 'https://evelynjimena.github.io//wdd230/chamber/members.json';
+const url = 'https://evelynjimena.github.io//wdd230/chamber/data/members.json';
 const cards = document.querySelector('#company-cards');
 const viewTypeSelect = document.querySelector('#view-type');
 
