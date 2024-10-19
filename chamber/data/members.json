@@ -1,12 +1,12 @@
 [
     {
-      "name": "Onewheel Inc.",
-      "address": "123 Main Street, San Francisco, CA 94101",
-      "phone": "+1 (123) 456-7890",
-      "website": "https://www.onewheel.com",
-      "image": "https://camwp.github.io/wdd230/chamber/images/chamberimg1.png",
+      "name": "Camara de Comercio de Quvedo",
+      "address": "Calle 7ma 217 entre 7 de Octubre y Bolivar 052 Quevedo, Ecuador",
+      "phone": "(05) 275-8031",
+      "website": "https://ccquevedo.com/",
+      "image": "https://evelynjimena.github.io/wdd230/chamber/images/chamber1.jpg",
       "membership_level": "Premium",
-      "other_information": "Onewheel Inc. is the leading manufacturer of Onewheel electric skateboards. They offer a wide range of models and accessories for all skill levels."
+      "other_information": "Camara de comercio de Quevedo. Move forward the productive sector of the city of Quevedo and the province of Los Ríos."
     },
     {
       "name": "Float Life",
