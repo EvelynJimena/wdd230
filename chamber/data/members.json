@@ -9,22 +9,22 @@
       "other_information": "Camara de comercio de Quevedo. Move forward the productive sector of the city of Quevedo and the province of Los Ríos."
     },
     {
-      "name": "Float Life",
-      "address": "456 Elm Avenue, Los Angeles, CA 90001",
-      "phone": "+1 (987) 654-3210",
-      "website": "https://www.floatlife.com",
-      "image": "https://camwp.github.io/wdd230/chamber/images/chamberimg2.png",
+      "name": "Prefectura de los Rios",
+      "address": "Av. Universitaria(4ta) y Clemente Baquerizo(calle 35) #0401",
+      "phone": "(05)-3701625",
+      "website": "https://losrios.gob.ec/",
+      "image": "https://evelynjimena.github.io/wdd230/chamber/images/chamber2.jpg",
       "membership_level": "Standard",
-      "other_information": "Float Life specializes in high-quality Onewheel accessories, including fenders, bumpers, and custom grip tape. They are known for their innovative designs and durability."
+      "other_information": "To formulate and execute plans, programs and projects that guarantee the social, economic and productive development of the Province and the Country"
     },
     {
-      "name": "Craft&Ride",
-      "address": "789 Oak Street, Austin, TX 78701",
-      "phone": "+1 (555) 123-4567",
-      "website": "https://www.craftandride.com",
-      "image": "https://camwp.github.io/wdd230/chamber/images/chamberimg3.png",
+      "name": "El Paseo Shopping de Quevedo",
+      "address": "7ma Entre 7de Octubre Y Boliva",
+      "phone": "+593(098) 698-8030",
+      "website": "https://www.elpaseoshopping.com/quevedo/tiendas",
+      "image": "https://evelynjimena.github.io/wdd230/chamber/images/chamber3.png",
       "membership_level": "Premium",
-      "other_information": "Craft&Ride offers a wide selection of Onewheel accessories, such as foot pads, handle kits, and protective gear. They also provide customization services for a personalized riding experience."
+      "other_information": "Best experience to sell or buy whatever you want."
     },
     {
       "name": "The Float World",
